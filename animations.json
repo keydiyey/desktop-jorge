@@ -1,0 +1,57 @@
+{
+    "header":
+        { 
+        "author" : "yuexjin",
+        "appName" : "desktop jorge",
+        "version" : "1.0",
+        "about" : "just a valentine's gift"
+        },
+
+    "animations" : [
+        {
+        "id" : 0,
+        "name" : "idle",
+        "sequence" : ["1.png", "2.png", "3.png", "4.png"],
+        "x_vel" : 0,
+        "y_vel" : 0,
+        "max_cycles" : 10
+        },
+
+        {
+        "id" : 1,
+        "name" : "walk",
+        "sequence" : ["5.png", "6.png", "7.png", "8.png"],
+        "x_vel" : 5,
+        "y_vel" : 5,
+        "max_cycles" : 10
+        
+        },
+
+        {
+        "id" : 2,
+        "name" : "sniff",
+        "sequence" : ["9.png", "10.png", "11.png", "12.png"],
+        "x_vel" : 5,
+        "y_vel" : 5,
+        "max_cycles" : 4
+        },
+
+        {
+        "id" : 3,
+        "name" : "jump",
+        "sequence" : ["jump_1.png", "jump_2.png", "jump_3.png", "jump_4.png", "jump_5.png", "jump_6.png"],
+        "x_vel" : 10,
+        "y_vel" : 0,
+        "max_cycles" : 1
+        },
+        
+        {
+        "id" : 4,
+        "name" : "drag",
+        "sequence" : ["drage.png", "dragR.png", "dragL.png"],
+        "x_vel" : 10,
+        "y_vel" : 0,
+        "max_cycles" : 1
+        }
+]
+}
